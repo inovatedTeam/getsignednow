@@ -240,7 +240,7 @@ class AjaxController extends Controller
         ->where('notifications.noti_type', '=', 'friend_request')
         ->where('notifications.solved', '=', '0')
         ->orderBy('created','DESC')->limit(5)
-        ->select('notifications.*', 'b.name as s_name', 'b.last_name as s_last', 'b.avatar')
+        ->select('notifications.*', 'b.id as s_id','b.name as s_name', 'b.last_name as s_last', 'b.avatar')
         ->get();
         return array("success"=>"OK", "data"=>$data);
 

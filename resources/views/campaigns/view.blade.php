@@ -95,6 +95,8 @@ $network = App\Models\Networks::where( 'id', $response->user()->network_type_id 
 
 // Country
 $country = App\Models\Countries::where('id', $response->user()->countries_id)->first();
+
+// what is this?
 $profileId = (int)$response->user()->id+89066;
 ?>
 @extends('app')

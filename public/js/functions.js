@@ -292,7 +292,7 @@ $(document).ready(function() {
                             html += '</div>';
                             html += '<div class="notification-info">';
                             html += '<h3 style="float: left;width: 100%;margin: 0px;"><a href="messages.html" style="margin-top: 4px;">'+src.s_name +' '+src.s_last+'</a> <span style="float: right;">'+show_date+'</span></h3>';
-                            html += '<h4>Friend request</h4>';
+                            html += '<h6>Profile ID: '+parseInt(src.s_id) + 89066 +'</h6>';
                             html += '</div>';
                             html += '<div class="row"><div class="col-md-6"><a class="btn btn-sm btn-success" href="javascript:check_notification(\'accept\', '+src.id+', '+src.ref_id+')" style="width: 95%;">ACCEPT</a></div>';
                             html += '<div class="col-md-6"><a class="btn btn-sm btn-danger reject_friend" href="javascript:check_notification(\'accept\', '+src.id+', '+src.ref_id+')" style="width: 95%;float: right;">REJECT</a>';

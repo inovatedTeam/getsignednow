@@ -3027,7 +3027,6 @@ button:active.btn-trans {
 .btn-donate:hover, .btn-friend:hover {
     background-color: #ED594A;
     border-color: #ED594A;
-    color : black;
 }
 .btn-friend {
     font-size: 18px;
@@ -3038,8 +3037,8 @@ button:active.btn-trans {
     padding-bottom: 9px;
     font-weight: bold;
     color: #fff;
-    background-color: #ED594A;
-    border-color: #ED594A;
+    background-color: #1497ca;
+    border-color: #1aa9e0;
 }
 .btn-friend.active{
     background-color: #82bea6;
